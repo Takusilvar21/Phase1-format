@@ -1,0 +1,201 @@
+header{
+ display:flex;
+ justify-content: start;
+ color: black;
+ background-color: #fff;
+ position: absolute;
+ z-index:100;
+}
+
+.header-logo{
+    padding-top:68px;
+    padding-left:77px;
+    padding-right:20px;
+    font-size: 38px;
+    font-family:Roboto Mono for Powerline,Regular;
+}
+.header-nav ul{
+ display:flex;
+ padding-top:77px;
+ 
+
+}
+.header-nav ul li {
+    font-size: 18px;
+    margin-right: 20px;
+}
+    
+.header-item1 ::after{
+    display: block;
+    content: "";
+    border-top: 1px solid black;
+    margin-top: 3px;
+    width:48px;
+}
+
+.header-item2{
+    color: #707070;
+}
+.img {
+   width:689px;
+   height:800px; 
+
+}
+
+.first-v-wrap{
+    display: flex;
+    
+}
+.first-v-img{
+    width:689px;
+    height:800px;
+}
+
+.first-v-img img {
+    width:100%;
+}
+
+.first-v-logo1{
+    font-size: 38px;
+    font-family: ヒラギノ明朝 Pro;
+    color: black;
+    margin: 130px 105px 48px 163px;
+    letter-spacing: 2px;
+}
+.first-v-logo2{
+    color: black;
+    padding: 48px 97px 290px 107px;
+    font-size: 38px;
+    font-family: Zapfino, Regular;
+    
+
+}
+.first-v-img{
+    position: absolute;
+    top:0;
+    left:45%;
+    width:689px;
+    height: 100%;
+}
+
+.first-v-img img {
+    width: 100%;
+
+}
+
+#concept{
+    background-color: linear-gradient(180deg,#A193861F 0%,#A193861F 330px, #A1938689 560px, #A1938689 100%);
+}
+.concept-wrapper{
+    margin-left: 107px;
+    margin-top: 256px;
+    width:1070px;
+}
+
+.concept-logo{
+    font-size: 18px;
+    color: #707070;
+    font-family: Roboto,Regular;
+    letter-spacing: 4px;
+    display:flex;
+    margin: 0 auto;
+}
+
+.concept-logo::after{
+    content:"";
+    margin-left:22px;
+    margin-top:8px;
+    border-top: 1px solid #707070;
+    width:100px;
+}
+.concept-img {
+    display:flex;
+    margin-top:11px;
+}
+.concept1{
+    margin-right: 11px;
+}
+
+.concept-text{
+    display: flex;
+    justify-content: space-around;
+    margin-top:92px;
+}
+
+.concept-text1{
+   font-size: 40px; 
+   letter-spacing: 5px;
+   font-family: ヒラギノ明朝 Pro,W3;
+}
+.concept-text2{
+    font-size: 16px;
+    font-family: ヒラギノ角ゴ Pro,W3;
+    width:422px;
+    height:130px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+
+
+
+
+.inner2{
+ margin-top: 261px;
+ margin-left: 107px;
+ width:1070px;
+}
+
+
+
+.menu-logo{
+    font-size: 18px;
+    color: #707070;
+    font-family: Roboto,Regular;
+    letter-spacing: 4px;
+    display: flex;
+}
+
+
+
+.menu-logo::after{
+    width:100px;
+    content:"";
+    border-top: 1px solid #707070;
+    margin-left: 22px;
+    margin-top: 8px;
+}
+
+.menu-img-wrapper{
+  display: flex;
+  margin-top:11px;
+  justify-content: space-between;
+}
+
+.Design{
+    margin-top:37px;
+    font-size: 30px;
+    font-family: Roboto Mono for Powerline,Regular;
+    text-align: center;
+    
+}
+
+
+
+.menu-text{
+    width: 253px;
+    height:131px;
+    margin-top: 34px;
+    font-size: 16px;
+}
+
+.menu-price{
+float: right;
+font-size: 16px;
+color: black;
+}
+
+
+
+
+    

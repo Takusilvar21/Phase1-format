@@ -3,6 +3,9 @@
     /* padding,borderが要素の中に入る */
     box-sizing:border-box;
 }
+header {
+ display: flex;
+}
 ul{
     /* リストの・を消す */
     list-style: none;
